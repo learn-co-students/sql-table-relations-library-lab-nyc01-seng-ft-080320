@@ -38,7 +38,7 @@ def select_series_title_with_most_human_characters
    LIMIT 1;"
 end
  # I think this rspec is impossible...I even tried the solution branch commented out below
- # and it got the same results as my query
+ # and it got the same results as my query ahh 
 def select_character_names_and_number_of_books_they_are_in
   "SELECT characters.name, COUNT(*) as book_count FROM characters
    INNER JOIN character_books ON characters.id = character_books.character_id
